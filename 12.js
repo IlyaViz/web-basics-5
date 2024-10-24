@@ -7,10 +7,11 @@ block1.textContent = block6.textContent;
 block6.textContent = temp;
 
 // 2
-function calculateArea(d1, d2) {
-    let area = d1 * d2 / 2;
-    let block3 = document.querySelector(".content p");
-    block3.textContent += `\n${area}`;
-}
+let d1 = 10;
+let d2 = 5;
+let area = d1 * d2 / 2;
+    
+let block3 = document.querySelector(".content p");
+block3.textContent += `\n${area}`;
 
-calculateArea(10, 5);
+
